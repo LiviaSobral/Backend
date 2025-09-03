@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(12, 12, 34);
+}
+form{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    background-color: rgba(184, 174, 174, 0.452);
+    padding: 5%;
+    border-radius: 10%;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
